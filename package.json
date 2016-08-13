@@ -1,0 +1,28 @@
+{
+  "name": "async-mw",
+  "version": "0.0.1",
+  "description": "Use async syntax (or Promises) to build express middlewares",
+  "main": "lib/async-mw.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smbwain/async-mw.git"
+  },
+  "keywords": [
+    "async",
+    "middleware"
+  ],
+  "author": "Roman Ditchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smbwain/async-mw/issues"
+  },
+  "homepage": "https://github.com/smbwain/async-mw#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
+  }
+}
